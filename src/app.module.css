@@ -1,4 +1,4 @@
-.titleBar {
+.title-bar {
   position: sticky;
   top: 0;
 
@@ -11,7 +11,7 @@
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
 }
 
-.titleBar > ul {
+.title-bar > ul {
   display: flex;
 
   list-style-type: none;
@@ -20,16 +20,16 @@
   margin: 0 0 0 18px;
 }
 
-.titleBar li {
+.title-bar li {
   margin-right: 18px;
 }
 
-.titleBar li > a {
+.title-bar li > a {
   text-decoration: none;
   color: rgb(245, 230, 201);
 }
 
-.titleBar li > a:hover {
+.title-bar li > a:hover {
   text-decoration: underline;
   color: white;
 }
